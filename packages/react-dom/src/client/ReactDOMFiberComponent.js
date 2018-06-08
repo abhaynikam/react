@@ -242,7 +242,7 @@ function trapClickOnNonInteractiveElement(node: HTMLElement) {
   // bookkeeping for it. Not sure if we need to clear it when the listener is
   // removed.
   // TODO: Only do this for the relevant Safaris maybe?
-  node.onclick = emptyFunction;
+  // node.onclick = emptyFunction;
 }
 
 function setInitialDOMProperties(
